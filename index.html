@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="sff.css">
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/QlzIfgwIwFL09_PiMDP4C1gSihjqH_Cz2ITXpccdTFh5tTJ2-mCF31GQsZGgkb65DQ=w240-h480-rw">
+</head>
+<body>
+    <div class="calc">
+        <div id="val">
+         <center><input type="number" placeholder="Enter The First Number" id="n1"><br><br></center>
+         <!-- <center><input type="number" placeholder="Enter The Second Number" id="n2"><br><br></center> -->
+        </div>
+        <div id="result">Result</div><br>
+        <div id="wait">Calculations</div><br><br>
+        <div id="button">
+            <input type="submit" value="add" id="add" onclick="add()">
+            <input type="submit" value="sub" id="sub" onclick="sub()">
+            <input type="submit" value="mul" id="mul" onclick="mul()">
+            <input type="submit" value="div" id="div" onclick="div()"><br><br>
+            <input type="submit" value="Reload" id="relo" onclick="res()">
+            <button type="submit" id="equ" onclick="eq()">=</button>
+        </div>
+    </div>
+    <script src="dg.js" ></script>
+</body>
+</html>
